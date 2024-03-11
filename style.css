@@ -1,0 +1,122 @@
+header{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    justify-content: space-between;   /*para que el logo aparezca lado izq y el menu lado der*/
+    background-color: rgb(76, 177, 236);
+    width: 100%;  
+}
+header img{
+    width: 100px;
+}
+
+header h1{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: flex-start;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li:hover{
+    margin: 10px;
+    font-size: larger;
+    font-family: cursive;
+    line-height: 20px;
+    font-size: 24px;
+    background-color:#20044d;
+    color:rgb(185, 241, 29)
+}
+a{
+    text-decoration: none;
+    
+}
+h1{
+    font-size: 26px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 16px;
+    color:rgb(7, 7, 43)
+}
+form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    margin: center;
+}
+
+input {
+    width: 350px;
+    justify-content: end;
+    padding-inline-start: 160px;
+}
+button{
+    background-color: rgb(11, 112, 138);
+    justify-content: center;
+    width: 350px;
+    height: 30px;
+}
+.video_ub{
+    display: flex;
+    justify-content: center;
+}
+
+footer h3{
+    justify-content: space-between;
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.formulario{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.formulario label {
+    display: block;
+    margin-bottom: 20px;
+}
+#carouselExampleSlidesOnly img{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.pago1 img{
+    width: 300px;
+}
+.pago img{
+    width: 300px;
+}
+.contactos img{
+    width: 50px;
+    justify-content: center;
+
+
+}
+.contactos{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: rgb(100, 100, 100);
+
+}
+.contactos a{
+    color: white;
+}

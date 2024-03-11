@@ -1,0 +1,110 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;   /*para que el logo aparezca lado izq y el menu lado der*/
+    background-color:  rgb(76, 177, 236);
+    width: 100%;  
+}
+header img{
+    width: 100px;
+}
+header h1{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: flex-start;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li:hover{
+    margin: 10px;
+    font-size: 24px;
+    background-color:#20044d;
+    color:rgb(185, 241, 29);
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 26px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 16px;
+    color:rgb(7, 7, 43)
+
+}
+.formulario{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+form {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Estilos para campos de entrada */
+input {
+    width: 300px;
+}
+
+button{
+    background-color: rgb(11, 112, 138);
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+}
+.carousel {
+    width: 500px; 
+    justify-content: center;
+}
+
+.carousel-inner img {
+    width: 200%;
+    height: 333px;
+
+}
+
+
+#carouselExampleSlidesOnly img{
+    width: 500px;
+}
+footer h3{
+    justify-content: right;
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.contactos img{
+    width: 50px;
+    justify-content: center;
+
+
+}
+.contactos{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(100, 100, 100);
+
+}
+.contactos a{
+    color: white;
+}
