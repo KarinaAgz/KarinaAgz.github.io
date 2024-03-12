@@ -1,0 +1,98 @@
+header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 24px;
+    justify-content: space-between;   /*para que el logo aparezca lado izq y el menu lado der*/
+    background-color: rgb(76, 177, 236);
+    width: 100%;  
+    
+}
+header img{
+    width: 100px;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: flex-start;
+}
+header ul{
+    font-size: 24px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li:hover{
+    margin: 10px;
+    font-size: large;
+    font-family: cursive;
+    font-size: 24px;
+    line-height: 20px;
+    background-color:#20044d;
+    color:rgb(185, 241, 29);
+}
+a:hover{
+    text-decoration: none;
+    font-size: large;
+    font-family: cursive;
+    font-size: 24px;
+    line-height: 20px;
+    background-color:#20044d;
+    color:rgb(185, 241, 29);
+}
+.contenedor{  
+    font-size: 24px;        /*.nombre_de_la_clase*/
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+
+}
+.contenedor p{
+    font-size: medium;
+    font-family: cursive;
+    justify-content: center;
+}
+.container-fluid img{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-fluid a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.mensaje{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    font-size: larger;
+    font-family: cursive;
+    justify-content: center;
+    align-content: center;
+}
+
+#carouselExampleCaptions img{
+    width: 1000px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.videoubi{
+    display: flex;
+    justify-content: center;
+}
+footer h3{
+    justify-content: right;
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }

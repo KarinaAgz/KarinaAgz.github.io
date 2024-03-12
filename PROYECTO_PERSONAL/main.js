@@ -1,0 +1,1 @@
+confirm("vuelo reservado")

@@ -1,0 +1,30 @@
+header img{
+    width: 100px;
+}
+
+#carouselExampleAutoplaying img{
+    width: 350px;
+    height: 60vh;
+    
+}
+.videoyubi iframe{
+    justify-content: space-between;
+    margin: 25px;
+}
+footer h3{
+    justify-content: right;
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+.contactos img{
+    width: 50px;
+    justify-content: center;
+
+
+}
+.contactos{
+background-color: black;
+
+}

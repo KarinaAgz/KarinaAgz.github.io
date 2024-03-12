@@ -1,0 +1,126 @@
+header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 24px;
+    justify-content: space-between;   /*para que el logo aparezca lado izq y el menu lado der*/
+    background-color: rgb(76, 177, 236);
+    width: 100%;  
+}
+header img{
+    width: 100px;
+}
+
+header h1{
+    font-size: 24px;
+    font-family: cursive;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+header ul li:hover{
+    margin: 10px;
+    font-size: larger;
+    font-family: cursive;
+    line-height: 20px;
+    font-size: 24px;
+    background-color:#20044d;
+    color:rgb(185, 241, 29)
+}
+a:hover{
+    text-decoration: none;
+    font-size: 24px;
+}
+h1{
+    font-size: 26px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Estilos para campos de entrada */
+input {
+    width: 300px;
+    height: 30px;
+}
+button{
+    background-color: rgb(11, 112, 138);
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+}
+
+.container-fluid p{
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+    justify-content: space-between;
+    background-color:#20044d;
+    color:rgb(185, 241, 29);
+}
+.carousel img{
+   width: 50%;
+    height: 40vh;
+
+}
+.videoubi{
+    display: flex;
+    justify-content: center;
+}
+footer h3{
+    justify-content: right;
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.contactos img{
+    width: 50px;
+    justify-content: center;
+
+
+}
+.contactos{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: rgb(100, 100, 100);
+
+}
+.contactos a{
+    color: white;
+}
+    
+.container-fluid{
+        width: 100px;
+        justify-content: space-between;
+
+}
+.carousel-item p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(216, 47, 47);
+}
+.carousel-item img{
+    width: 500px;
+
+}

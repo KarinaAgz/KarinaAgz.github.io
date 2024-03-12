@@ -1,0 +1,73 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  /*para que el logo aparezca lado izq y el menu lado der*/
+  background-color:rgb(76, 177, 236);
+  width: 100%;   
+ }
+ header h5{
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+}
+ header img{
+  width: 100px;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  #carouselExampleSlidesOnly img{
+    display: flex;
+    width: 100px;
+    height: 50vh;
+
+  }
+  footer h3{
+    justify-content: right;
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .contactos img{
+    width: 50px;
+    justify-content: center;
+
+
+}
+.contactos{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: rgb(100, 100, 100);
+
+}
+.contactos a{
+    color: white;
+}
+
+  .formulario{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 40vh;
+    
+}
+.formulario label {
+    display: block;
+    margin-bottom: 20px;
+}
+button{
+  background-color: rgb(214, 27, 205);
+  justify-content: right;
+  width: 250px;
+  height: 30px;
+  margin-left: 10px;
+  
+}

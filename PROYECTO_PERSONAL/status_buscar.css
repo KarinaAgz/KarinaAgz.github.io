@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 24px;
+    justify-content: space-between;   /*para que el logo aparezca lado izq y el menu lado der*/
+    background-color: rgb(76, 177, 236);
+    width: 100%;  
+    
+}
+header img{
+    width: 100px;
+}
